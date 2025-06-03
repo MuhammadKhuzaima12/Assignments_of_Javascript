@@ -81,11 +81,50 @@ document.write(`<br>${table_digit} * 10 = ${table_digit * 10}`);
 
 document.write(`<h1>Task 6</h1>`);
 var sub1 = prompt("Enter the name of your First Subject :");
-var sub2 = prompt("Enter the name of your Second Subject :");
-var sub3 = prompt("Enter the name of your Third Subject :");
-var total_marks = 100;
 var sub1_marks = Number(prompt("Enter your obtained marks in First Subject :"));
-var sub2_marks = Number(prompt("Enter your obtained marks in First Subject :"));
-var sub3_marks = Number(prompt("Enter your obtained marks in First Subject :"));
+var sub2 = prompt("Enter the name of your Second Subject :");
+var sub2_marks = Number(prompt("Enter your obtained marks in Second Subject :"));
+var sub3 = prompt("Enter the name of your Third Subject :");
+var sub3_marks = Number(prompt("Enter your obtained marks in Third Subject :"));
+var total_marks = 100;
+var grand_total = 300;
+var obt_grand = sub1_marks + sub2_marks + sub3_marks;
+
+
+
+document.write(` 
+    <table>
+    <tr>
+     <td><b>Subject</b></td>
+     <td><b>Total Marks</b></td>
+     <td><b>Obtained Marks</b></td>
+     <td><b>Percentage</b></td>
+    </tr>
+    <tr>
+     <td>${sub1}</td>
+     <td>${total_marks}</td>
+     <td>${sub1_marks}</td>
+     <td>${parseFloat(sub1_marks / total_marks * 100)}%</td>
+    </tr>
+    <tr>
+     <td>${sub2}</td>
+     <td>${total_marks}</td>
+     <td>${sub2_marks}</td>
+     <td>${parseFloat(sub2_marks / total_marks * 100)}%</td>
+    </tr>
+    <tr>
+     <td>${sub3}</td>
+     <td>${total_marks}</td>
+     <td>${sub3_marks}</td>
+     <td>${parseFloat(sub3_marks / total_marks * 100)}%</td>
+    </tr>
+    <tr>
+     <td><b>Total</b></td>
+     <td>${total_marks * 3}</td>
+     <td>${sub1_marks + sub2_marks + sub3_marks}</td>
+     <td>${parseFloat(obt_grand / grand_total * 100)}%</td>
+    </tr>
+    </table>
+    `)
 
 // console.table([sub1,sub2,sub3],[sub1_marks,sub2_marks,sub3_marks]);
