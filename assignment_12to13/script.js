@@ -54,7 +54,8 @@ alert("!! Fill the input to know that you've entered a vowel or consonant !!");
 var check_vowel = prompt("Enter a Letter :");
 var lower_Case = check_vowel.toLowerCase();
 
-if (lower_Case == 'a' || 'e' || 'i' || 'o' || 'u') {
+if (lower_Case ===
+    'a' || 'e' || 'i' || 'o' || 'u') {
     alert("You entered a vowel.")
 } else {
     alert("You entered a consonant.")
