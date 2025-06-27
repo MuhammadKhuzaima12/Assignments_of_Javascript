@@ -127,12 +127,20 @@ if (reversed_palin === user_str_palin) {
 
 // 13. Ask the user for a number and determine if it is ** prime ** or not.Show the result using`alert()`.
 
-// var is_num_prime = Number(prompt("Enter a number to know if it is either prime or composite :"));
-// if (is) {
-    
-// } else {
-    
-// }
+var num_prime = Number(prompt("Enter a number to know if it is either prime or composite :"));
+var is_prime = true;
+for (var i = 2; i < num_prime; i++) {
+    if (num_prime % i == 0) {
+        is_prime = false;
+        break;
+    }
+}
+if (is_prime) {
+    alert("Your number is prime.")
+} else {
+    alert("Your number is composite.")
+}
+
 
 // 14. Create an array of 10 random numbers between 1 and 100. Use a loop to find the largest number in the array.
 
