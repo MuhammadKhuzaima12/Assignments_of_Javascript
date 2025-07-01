@@ -31,9 +31,9 @@ alert(`The absolute value of "${user_num3}" is "${Math.abs(user_num3)}".`);
 // 4. Write a program that simulates a dice using random() method of JS Math class. Display the value of dice in your browser.
 
 var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
-document.writeln(rndm_dice_num + "<br>");
+document.writeln("<br>" + rndm_dice_num);
 var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
-document.writeln(rndm_dice_num);
+document.writeln("<br>" + rndm_dice_num);
 
 // 5. Write a program that simulates a coin toss using random() method of JS Math class. Display the value of coin in your browser
 
@@ -41,15 +41,15 @@ var coin_side = Math.floor(Math.random() * 2);
 if (coin_side == 0) {
     document.writeln(`Random Coin Value : Head`)
 } else if (coin_side == 1) {
-    document.writeln(`Random Coin Value : Tail`)
+    document.writeln(`"<br>" + Random Coin Value : Tail`)
 } else {
-    document.writeln(`Something went wrong!`)
+    document.writeln(`"<br>" + Something went wrong!`)
 };
 
 // 6. Write a program that shows a random number between 1 and 100 in your browser.
 
 var rndm_num = Math.floor(Math.random() * 100 + 1);
-document.writeln(`Random number between 1 and 100 : ${rndm_num}`);
+document.writeln(`"<br>" + Random number between 1 and 100 : ${rndm_num}`);
 
 // 7. Write a program that asks the user about his weight.Parse the user input and display his weight in your browser.
 // Possible user inputs can be:
