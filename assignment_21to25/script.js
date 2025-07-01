@@ -130,33 +130,33 @@
 // If the password does not meet above requirements, prompt the user to enter a valid password.
 // For character codes of a - z, A - Z & 0 - 9, refer to ASCII table at the end of this document.
 
-var user_password = prompt(`
-    Create your password:
-    a.It should contain alphabets and numbers.
-    b.It should not start with a number.
-    c.It must at least 6 characters long`);
+// var user_password = prompt(`
+//     Create your password:
+//     a.It should contain alphabets and numbers.
+//     b.It should not start with a number.
+//     c.It must at least 6 characters long`);
 
-// for a
-var flag_a = false;
-for (var i = 0; i < array.length; i++) {
-    if (user_password.includes(user_password.charCodeAt(i))) {
+// // for a
+// var flag_a = false;
+// for (var i = 0; i < array.length; i++) {
+//     if (user_password.includes(user_password.charCodeAt(i))) {
         
-    } else {
+//     } else {
         
-    }
-}
+//     }
+// }
 
-// for b
-var flag_b = true;
-if (user_password.charCodeAt(0) <= 48 && user_password.charCodeAt(0) >=57) {
-    flag_b = false
-};
+// // for b
+// var flag_b = true;
+// if (user_password.charCodeAt(0) <= 48 && user_password.charCodeAt(0) >=57) {
+//     flag_b = false
+// };
 
-// for c
-var flag_c = false;
-if (user_password.length >= 6) {
-    flag_c = true;
-}
+// // for c
+// var flag_c = false;
+// if (user_password.length >= 6) {
+//     flag_c = true;
+// }
 
 // 16. Write a program to convert the following string to an array using string split method.
 // var university = “University of Karachi”; Display the elements of array in your browser.
