@@ -4,11 +4,11 @@
 // c.floor value of the number
 // d.ceil value of the number
 
-// var user_num = Number(prompt("Enter a positive number:"));
-// document.writeln(`number :${user_num}<br>`);
-// document.writeln(`round off value :${Math.round(user_num)}<br>`);
-// document.writeln(`floor value :${Math.floor(user_num)}<br>`);
-// document.writeln(`ceil value :${Math.ceil(user_num)}`);
+var user_num = Number(prompt("Enter a positive number:"));
+document.writeln(`number :${user_num}<br>`);
+document.writeln(`round off value :${Math.round(user_num)}<br>`);
+document.writeln(`floor value :${Math.floor(user_num)}<br>`);
+document.writeln(`ceil value :${Math.ceil(user_num)}`);
 
 // 2. Write a program that takes a negative floating point number from user & display the following in your browser.
 // a.number
@@ -16,40 +16,40 @@
 // c.floor value of the number
 // d.ceil value of the number
 
-// var user_num2 = Number(prompt("Enter a negative number:"));
-// document.writeln(`number :${user_num}<br>`);
-// document.writeln(`round off value :${Math.round(user_num)}<br>`);
-// document.writeln(`floor value :${Math.floor(user_num)}<br>`);
-// document.writeln(`ceil value :${Math.ceil(user_num)}`);
+var user_num2 = Number(prompt("Enter a negative number:"));
+document.writeln(`number :${user_num}<br>`);
+document.writeln(`round off value :${Math.round(user_num)}<br>`);
+document.writeln(`floor value :${Math.floor(user_num)}<br>`);
+document.writeln(`ceil value :${Math.ceil(user_num)}`);
 
 // 3. Write a program that displays the absolute value of a number.
 // E.g.absolute value of - 4 is 4 & absolute value of 5 is 5
 
-// var user_num3 = Number(prompt("Enter a digit(positive/negative):"));
-// alert(`The absolute value of "${user_num3}" is "${Math.abs(user_num3)}".`);
+var user_num3 = Number(prompt("Enter a digit(positive/negative):"));
+alert(`The absolute value of "${user_num3}" is "${Math.abs(user_num3)}".`);
 
 // 4. Write a program that simulates a dice using random() method of JS Math class. Display the value of dice in your browser.
 
-// var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
-// document.writeln(rndm_dice_num + "<br>");
-// var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
-// document.writeln(rndm_dice_num);
+var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
+document.writeln(rndm_dice_num + "<br>");
+var rndm_dice_num = Math.floor(Math.random() * 6 + 1);
+document.writeln(rndm_dice_num);
 
 // 5. Write a program that simulates a coin toss using random() method of JS Math class. Display the value of coin in your browser
 
-// var coin_side = Math.floor(Math.random() * 2);
-// if (coin_side == 0) {
-//     document.writeln(`Random Coin Value : Head`)
-// } else if (coin_side == 1) {
-//     document.writeln(`Random Coin Value : Tail`)
-// } else {
-//     document.writeln(`Something went wrong!`)
-// };
+var coin_side = Math.floor(Math.random() * 2);
+if (coin_side == 0) {
+    document.writeln(`Random Coin Value : Head`)
+} else if (coin_side == 1) {
+    document.writeln(`Random Coin Value : Tail`)
+} else {
+    document.writeln(`Something went wrong!`)
+};
 
 // 6. Write a program that shows a random number between 1 and 100 in your browser.
 
-// var rndm_num = Math.floor(Math.random() * 100 + 1);
-// document.writeln(`Random number between 1 and 100 : ${rndm_num}`);
+var rndm_num = Math.floor(Math.random() * 100 + 1);
+document.writeln(`Random number between 1 and 100 : ${rndm_num}`);
 
 // 7. Write a program that asks the user about his weight.Parse the user input and display his weight in your browser.
 // Possible user inputs can be:
