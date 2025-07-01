@@ -7,12 +7,10 @@ alert("Your age is " + user_age);
 // 2. Use `prompt()` to get 5 numbers from the user, store them in an array, and then calculate and log the average using a loop.
 
 var num_arr = [];
-for (var i = 0; i < 5; i++) {
-    num_arr[i] = Number(prompt("Enter a number:"));
-};
 var sum = 0;
-for (var i = 0; i < num_arr.length; i++) {
-    sum = sum + num_arr[i];
+for (var i = 0; i < 3; i++) {
+    num_arr[i] = Number(prompt("Enter a number:"));
+    sum = sum + num_arr[i]
 };
 console.log(sum);
 var average = sum / num_arr.length;
