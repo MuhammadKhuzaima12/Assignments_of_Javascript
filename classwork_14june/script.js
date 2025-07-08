@@ -115,7 +115,7 @@ alert("The Temperature you entered in Celcius (" + temp_C + "\u00B0C) is convert
 var user_str_palin = prompt("Enter a string to get that in reverse order :");
 var reversed_palin = "";
 for (var i = user_str.length - 1; i >= 0; i--) {
-    reversed = reversed.concat(user_str[i]);
+    reversed_palin = reversed_palin.concat(user_str_palin[i]);
 };
 if (reversed_palin === user_str_palin) {
     alert("Your string is palindrome.");
